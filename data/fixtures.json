@@ -1,0 +1,54 @@
+﻿{
+  "usuarios": [
+    {
+      "nombre": "Juan Pérez",
+      "email": "juan.perez@ejemplo.mx",
+      "telefono": "5551234567",
+      "es_trabajador": true,
+      "es_cliente": true
+    },
+    {
+      "nombre": "María García",
+      "email": "maria.garcia@ejemplo.mx",
+      "telefono": "5559876543",
+      "es_trabajador": true,
+      "es_cliente": true
+    },
+    {
+      "nombre": "Roberto Hernández",
+      "email": "roberto.h@ejemplo.mx",
+      "telefono": "5550001111",
+      "es_trabajador": false,
+      "es_cliente": true
+    }
+  ],
+  "oficios": [
+    {"nombre": "Plomería", "descripcion": "Instalación y reparación de tuberías y sistemas de agua."},
+    {"nombre": "Electricidad", "descripcion": "Instalaciones eléctricas residenciales y comerciales."},
+    {"nombre": "Carpintería", "descripcion": "Fabricación y reparación de muebles y estructuras de madera."},
+    {"nombre": "Albañilería", "descripcion": "Construcción y remodelación de estructuras."},
+    {"nombre": "Limpieza", "descripcion": "Servicios de limpieza profunda y mantenimiento."}
+  ],
+  "perfiles": [
+    {
+      "email_referencia": "juan.perez@ejemplo.mx",
+      "oficio_principal": "Plomería",
+      "zona_cobertura": "CDMX - Coyoacán",
+      "disponibilidad": true,
+      "rango_precio_min": 300,
+      "rango_precio_max": 1500,
+      "reputacion": 4.8,
+      "descripcion": "Especialista en fugas y calentadores solares. 10 años de experiencia."
+    },
+    {
+      "email_referencia": "maria.garcia@ejemplo.mx",
+      "oficio_principal": "Electricidad",
+      "zona_cobertura": "EdoMex - Naucalpan",
+      "disponibilidad": true,
+      "rango_precio_min": 400,
+      "rango_precio_max": 2000,
+      "reputacion": 4.9,
+      "descripcion": "Certificada en instalaciones de alta eficiencia. Atención inmediata."
+    }
+  ]
+}
